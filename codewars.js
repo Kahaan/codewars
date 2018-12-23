@@ -121,28 +121,28 @@ function cakes(recipe, available) {
 // countSmileys([':)', ';(', ';}', ':-D']);       // should return 2;
 // countSmileys([';D', ':-(', ':-)', ';~)']);     // should return 3;
 // countSmileys([';]', ':[', ';*', ':$', ';-D']); // should return 1;
-
-function countSmileys(arr) {
-  let count = 0;
-
-  let eyes = ":;";
-  let nose = "-~";
-  let mouth = ")D";
-
-  arr.forEach(el => {
-    if (el.length === 2) {
-      if (eyes.includes(el[0]) && mouth.includes(el[1])) {
-        count++;
-      }
-    } else if (el.length === 3) {
-      if (
-        eyes.includes(el[0]) &&
-        nose.includes(el[1]) &&
-        mouth.includes(el[2])
-      ) {
-        count++;
-      }
-    }
-  });
-  return count;
-}
+//
+// function countSmileys(arr) {
+//   let count = 0;
+//
+//   let eyes = ":;";
+//   let nose = "-~";
+//   let mouth = ")D";
+//
+//   arr.forEach(el => {
+//     if (el.length === 2) {
+//       if (eyes.includes(el[0]) && mouth.includes(el[1])) {
+//         count++;
+//       }
+//     } else if (el.length === 3) {
+//       if (
+//         eyes.includes(el[0]) &&
+//         nose.includes(el[1]) &&
+//         mouth.includes(el[2])
+//       ) {
+//         count++;
+//       }
+//     }
+//   });
+//   return count;
+// }
