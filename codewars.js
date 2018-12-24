@@ -177,9 +177,9 @@ function countSmileys(arr) {
 // songDecoder("WUBWEWUBAREWUBWUBTHEWUBCHAMPIONSWUBMYWUBFRIENDWUB")
 // =>  WE ARE THE CHAMPIONS MY FRIEND
 
-function songDecoder(song) {
-  return (song = song
-    .split("WUB")
-    .filter(Boolean)
-    .join(" "));
-}
+// function songDecoder(song) {
+//   return (song = song
+//     .split("WUB")
+//     .filter(Boolean)
+//     .join(" "));
+// }
