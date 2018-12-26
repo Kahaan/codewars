@@ -1,17 +1,3 @@
-// Write a function that returns whther a given integer is a prime number
-
-function isPrime(num) {
-  if (num === 1 || num === 0 || num < 0) {
-    return false;
-  }
-  for (let i = 2; i < num; i++) {
-    if (num % i === 0) {
-      return false;
-    }
-  }
-  return true;
-}
-
 // Write a function, persistence, that takes in a positive parameter num and
 // returns its multiplicative persistence, which is the number of times you must
 // multiply the digits in num until you reach a single digit.
